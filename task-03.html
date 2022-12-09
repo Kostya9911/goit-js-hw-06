@@ -6,6 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 3</title>
     <link rel="stylesheet" href="css/common.css" />
+    <style>
+      .gallery {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+      }
+      li {
+        width: 500px;
+        height: 300px;
+        border: 2px solid green;
+      }
+      li:not(:last-child) {
+        box-shadow: 7px 8px salmon;
+      }
+      li:last-child {
+        box-shadow: 7px 8px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        box-shadow: inset;
+      }
+    </style>
   </head>
   <body>
     <p><a href="index.html">Go back</a></p>
