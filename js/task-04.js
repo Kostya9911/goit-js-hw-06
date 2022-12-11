@@ -1,4 +1,5 @@
 let counterValue = 0;
+// Переробка. Виніс окрему змінну
 const spanAll = document.querySelector("#value");
 const decrementClick = () => {
   counterValue -= 1;
