@@ -11,6 +11,7 @@ const btnDestroy = document.querySelector("button[data-destroy]");
 
 const boxes = document.querySelector("div#boxes");
 const inputAll = document.querySelector("input");
+document.body.style.backgroundColor = "#FFFFE0 ";
 // Змінна для розміру div
 let size = 0;
 
@@ -24,9 +25,10 @@ const createBoxes = (amount) => {
     styles.height = `${size}px`;
     styles.width = `${size}px`;
     styles.backgroundColor = getRandomHexColor();
-    styles.margin = "50px 10px";
-    styles.border = "1px solid black";
+    styles.margin = "50px 5px";
+    styles.border = "1px solid gray";
     styles.display = "inline-block";
+    styles.borderRadius = "4px";
   }
 };
 
